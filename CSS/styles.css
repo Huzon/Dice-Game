@@ -1,0 +1,119 @@
+/* elements */
+body{
+    background-color: grey;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1{
+    color: rgb(194, 235, 49);
+    font-size: 7rem;
+    font-family: 'Yeseva One', cursive;
+    margin : 100px;
+
+}
+
+.player{
+    
+    font-size: 3rem;
+}
+
+.bigText{
+    font-size: 10rem;
+}
+
+.diceShape{
+    /* margin: 100px; */
+    position: relative;
+    left: 45%;
+    background-color:red;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    
+}
+.wrapper{
+    margin: auto;
+    width:auto;
+    padding: 0 32% ;
+    /* height: 500px; */
+    /* background-color: pink; */
+}
+
+
+.dotTL{
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.dotTR{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.dotML{
+    position: absolute;
+    left: 5%;
+    top: 40%;
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.dotMR{
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.dotBL{
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.dotBR{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.dotMM{
+    position: absolute;
+    right: 40%;
+    top: 40%;
+    background-color: wheat;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+
+.invisible{
+    visibility: hidden;
+}
+
+.footer{
+    margin-top: 100px;
+}
