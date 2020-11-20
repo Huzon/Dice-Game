@@ -9,7 +9,7 @@ h1{
     color: rgb(194, 235, 49);
     font-size: 7rem;
     font-family: 'Yeseva One', cursive;
-    margin : 100px;
+    margin : 100px 0;
 
 }
 
@@ -22,8 +22,17 @@ h1{
     font-size: 10rem;
 }
 
+@media (max-width:425px){
+    h1{
+        font-size: 4rem;
+    }
+
+    .player{
+        font-size: 2rem;
+    }
+}
 .diceShape{
-    /* margin: 100px; */
+    margin: 0 0;
     position: relative;
     left: 45%;
     background-color:red;
@@ -116,4 +125,7 @@ h1{
 
 .footer{
     margin-top: 100px;
+}
+.btn{
+    margin:100px;
 }
